@@ -8,6 +8,10 @@ import logging
 import logging.handlers
 import sys
 
+#[Wed, 20 Jan 2016 14:01:S 21089] INFO (loggingtest:26 Hello! I'm rootLogger message!)
+#[Wed, 20 Jan 2016 14:01:S 21090] INFO (loggingtest:26 Hello! I'm rootLogger message!)
+#[Wed, 20 Jan 2016 14:01:S 21091] INFO (loggingtest:26 Hello! I'm rootLogger message!)
+
 dateFormat = '%a, %d %b %Y %H:%M:S'
 fileFormat = '[%(asctime)s %(process)d] %(levelname)s (%(module)s:%(lineno)d %(message)s)'
 streamFormat = '%(asctime)s %(levelname)-8s %(message)s'
